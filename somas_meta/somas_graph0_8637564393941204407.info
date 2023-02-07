@@ -1,0 +1,648 @@
+
+
+All Tensors:
+
+index:	size:	real_size:	offset:	addr:	type:	lifelong:	life_start:	life_end:	source node name:
+%0T	#3211776S	#3211264S	&0	&0	Common	0	0	1	Conv2D-op518
+%1T	#3211776S	#3211264S	&0	&0	Common	0	1	2	BatchNorm-op519
+%2T	#512S	#256S	&0	&0	OutputOnly	0	1	1	BatchNorm-op519
+%3T	#512S	#256S	&0	&0	OutputOnly	0	1	1	BatchNorm-op519
+%4T	#512S	#256S	&0	&0	OutputOnly	0	1	1	BatchNorm-op519
+%5T	#512S	#256S	&0	&0	OutputOnly	0	1	1	BatchNorm-op519
+%6T	#1024S	#512S	&0	&0	Workspace	0	1	1	BatchNorm-op519
+%7T	#3211776S	#3211264S	&0	&0	Common	0	2	3	ReLU-op520
+%8T	#803328S	#802816S	&0	&0	Common	0	3	6	MaxPool-op521
+%9T	#201216S	#200704S	&0	&0	Workspace	0	3	3	MaxPool-op521
+%10T	#3211776S	#3211264S	&0	&0	Common	0	4	5	Conv2D-op522
+%11T	#3211776S	#3211264S	&0	&0	Common	0	5	14	BatchNorm-op523
+%12T	#1536S	#1024S	&0	&0	OutputOnly	0	5	5	BatchNorm-op523
+%13T	#1536S	#1024S	&0	&0	OutputOnly	0	5	5	BatchNorm-op523
+%14T	#1536S	#1024S	&0	&0	OutputOnly	0	5	5	BatchNorm-op523
+%15T	#1536S	#1024S	&0	&0	OutputOnly	0	5	5	BatchNorm-op523
+%16T	#2560S	#2048S	&0	&0	Workspace	0	5	5	BatchNorm-op523
+%17T	#803328S	#802816S	&0	&0	Common	0	6	7	Conv2D-op524
+%18T	#803328S	#802816S	&0	&0	Common	0	7	8	BatchNorm-op525
+%19T	#512S	#256S	&0	&0	OutputOnly	0	7	7	BatchNorm-op525
+%20T	#512S	#256S	&0	&0	OutputOnly	0	7	7	BatchNorm-op525
+%21T	#512S	#256S	&0	&0	OutputOnly	0	7	7	BatchNorm-op525
+%22T	#512S	#256S	&0	&0	OutputOnly	0	7	7	BatchNorm-op525
+%23T	#1024S	#512S	&0	&0	Workspace	0	7	7	BatchNorm-op525
+%24T	#803328S	#802816S	&0	&0	Common	0	8	9	ReLU-op526
+%25T	#803328S	#802816S	&0	&0	Common	0	9	10	Conv2D-op527
+%26T	#803328S	#802816S	&0	&0	Common	0	10	11	BatchNorm-op528
+%27T	#512S	#256S	&0	&0	OutputOnly	0	10	10	BatchNorm-op528
+%28T	#512S	#256S	&0	&0	OutputOnly	0	10	10	BatchNorm-op528
+%29T	#512S	#256S	&0	&0	OutputOnly	0	10	10	BatchNorm-op528
+%30T	#512S	#256S	&0	&0	OutputOnly	0	10	10	BatchNorm-op528
+%31T	#1024S	#512S	&0	&0	Workspace	0	10	10	BatchNorm-op528
+%32T	#803328S	#802816S	&0	&0	Common	0	11	12	ReLU-op529
+%33T	#3211776S	#3211264S	&0	&0	Common	0	12	13	Conv2D-op530
+%34T	#3211776S	#3211264S	&0	&0	Common	0	13	14	BatchNorm-op531
+%35T	#1536S	#1024S	&0	&0	OutputOnly	0	13	13	BatchNorm-op531
+%36T	#1536S	#1024S	&0	&0	OutputOnly	0	13	13	BatchNorm-op531
+%37T	#1536S	#1024S	&0	&0	OutputOnly	0	13	13	BatchNorm-op531
+%38T	#1536S	#1024S	&0	&0	OutputOnly	0	13	13	BatchNorm-op531
+%39T	#2560S	#2048S	&0	&0	Workspace	0	13	13	BatchNorm-op531
+%40T	#3211776S	#3211264S	&0	&0	Common	0	14	15	Add-op532
+%41T	#3211776S	#3211264S	&0	&0	Common	0	15	24	ReLU-op533
+%42T	#803328S	#802816S	&0	&0	Common	0	16	17	Conv2D-op534
+%43T	#803328S	#802816S	&0	&0	Common	0	17	18	BatchNorm-op535
+%44T	#512S	#256S	&0	&0	OutputOnly	0	17	17	BatchNorm-op535
+%45T	#512S	#256S	&0	&0	OutputOnly	0	17	17	BatchNorm-op535
+%46T	#512S	#256S	&0	&0	OutputOnly	0	17	17	BatchNorm-op535
+%47T	#512S	#256S	&0	&0	OutputOnly	0	17	17	BatchNorm-op535
+%48T	#1024S	#512S	&0	&0	Workspace	0	17	17	BatchNorm-op535
+%49T	#803328S	#802816S	&0	&0	Common	0	18	19	ReLU-op536
+%50T	#803328S	#802816S	&0	&0	Common	0	19	20	Conv2D-op537
+%51T	#803328S	#802816S	&0	&0	Common	0	20	21	BatchNorm-op538
+%52T	#512S	#256S	&0	&0	OutputOnly	0	20	20	BatchNorm-op538
+%53T	#512S	#256S	&0	&0	OutputOnly	0	20	20	BatchNorm-op538
+%54T	#512S	#256S	&0	&0	OutputOnly	0	20	20	BatchNorm-op538
+%55T	#512S	#256S	&0	&0	OutputOnly	0	20	20	BatchNorm-op538
+%56T	#1024S	#512S	&0	&0	Workspace	0	20	20	BatchNorm-op538
+%57T	#803328S	#802816S	&0	&0	Common	0	21	22	ReLU-op539
+%58T	#3211776S	#3211264S	&0	&0	Common	0	22	23	Conv2D-op540
+%59T	#3211776S	#3211264S	&0	&0	Common	0	23	24	BatchNorm-op541
+%60T	#1536S	#1024S	&0	&0	OutputOnly	0	23	23	BatchNorm-op541
+%61T	#1536S	#1024S	&0	&0	OutputOnly	0	23	23	BatchNorm-op541
+%62T	#1536S	#1024S	&0	&0	OutputOnly	0	23	23	BatchNorm-op541
+%63T	#1536S	#1024S	&0	&0	OutputOnly	0	23	23	BatchNorm-op541
+%64T	#2560S	#2048S	&0	&0	Workspace	0	23	23	BatchNorm-op541
+%65T	#3211776S	#3211264S	&0	&0	Common	0	24	25	Add-op542
+%66T	#3211776S	#3211264S	&0	&0	Common	0	25	34	ReLU-op543
+%67T	#803328S	#802816S	&0	&0	Common	0	26	27	Conv2D-op544
+%68T	#803328S	#802816S	&0	&0	Common	0	27	28	BatchNorm-op545
+%69T	#512S	#256S	&0	&0	OutputOnly	0	27	27	BatchNorm-op545
+%70T	#512S	#256S	&0	&0	OutputOnly	0	27	27	BatchNorm-op545
+%71T	#512S	#256S	&0	&0	OutputOnly	0	27	27	BatchNorm-op545
+%72T	#512S	#256S	&0	&0	OutputOnly	0	27	27	BatchNorm-op545
+%73T	#1024S	#512S	&0	&0	Workspace	0	27	27	BatchNorm-op545
+%74T	#803328S	#802816S	&0	&0	Common	0	28	29	ReLU-op546
+%75T	#803328S	#802816S	&0	&0	Common	0	29	30	Conv2D-op547
+%76T	#803328S	#802816S	&0	&0	Common	0	30	31	BatchNorm-op548
+%77T	#512S	#256S	&0	&0	OutputOnly	0	30	30	BatchNorm-op548
+%78T	#512S	#256S	&0	&0	OutputOnly	0	30	30	BatchNorm-op548
+%79T	#512S	#256S	&0	&0	OutputOnly	0	30	30	BatchNorm-op548
+%80T	#512S	#256S	&0	&0	OutputOnly	0	30	30	BatchNorm-op548
+%81T	#1024S	#512S	&0	&0	Workspace	0	30	30	BatchNorm-op548
+%82T	#803328S	#802816S	&0	&0	Common	0	31	32	ReLU-op549
+%83T	#3211776S	#3211264S	&0	&0	Common	0	32	33	Conv2D-op550
+%84T	#3211776S	#3211264S	&0	&0	Common	0	33	34	BatchNorm-op551
+%85T	#1536S	#1024S	&0	&0	OutputOnly	0	33	33	BatchNorm-op551
+%86T	#1536S	#1024S	&0	&0	OutputOnly	0	33	33	BatchNorm-op551
+%87T	#1536S	#1024S	&0	&0	OutputOnly	0	33	33	BatchNorm-op551
+%88T	#1536S	#1024S	&0	&0	OutputOnly	0	33	33	BatchNorm-op551
+%89T	#2560S	#2048S	&0	&0	Workspace	0	33	33	BatchNorm-op551
+%90T	#3211776S	#3211264S	&0	&0	Common	0	34	35	Add-op552
+%91T	#3211776S	#3211264S	&0	&0	Common	0	35	37	ReLU-op553
+%92T	#1606144S	#1605632S	&0	&0	Common	0	36	38	Conv2D-op554
+%93T	#1606144S	#1605632S	&0	&0	Common	0	37	39	Conv2D-op555
+%94T	#1606144S	#1605632S	&0	&0	Common	0	38	46	BatchNorm-op556
+%95T	#2560S	#2048S	&0	&0	OutputOnly	0	38	38	BatchNorm-op556
+%96T	#2560S	#2048S	&0	&0	OutputOnly	0	38	38	BatchNorm-op556
+%97T	#2560S	#2048S	&0	&0	OutputOnly	0	38	38	BatchNorm-op556
+%98T	#2560S	#2048S	&0	&0	OutputOnly	0	38	38	BatchNorm-op556
+%99T	#4608S	#4096S	&0	&0	Workspace	0	38	38	BatchNorm-op556
+%100T	#1606144S	#1605632S	&0	&0	Common	0	39	40	BatchNorm-op557
+%101T	#1024S	#512S	&0	&0	OutputOnly	0	39	39	BatchNorm-op557
+%102T	#1024S	#512S	&0	&0	OutputOnly	0	39	39	BatchNorm-op557
+%103T	#1024S	#512S	&0	&0	OutputOnly	0	39	39	BatchNorm-op557
+%104T	#1024S	#512S	&0	&0	OutputOnly	0	39	39	BatchNorm-op557
+%105T	#1536S	#1024S	&0	&0	Workspace	0	39	39	BatchNorm-op557
+%106T	#1606144S	#1605632S	&0	&0	Common	0	40	41	ReLU-op558
+%107T	#401920S	#401408S	&0	&0	Common	0	41	42	Conv2D-op559
+%108T	#401920S	#401408S	&0	&0	Common	0	42	43	BatchNorm-op560
+%109T	#1024S	#512S	&0	&0	OutputOnly	0	42	42	BatchNorm-op560
+%110T	#1024S	#512S	&0	&0	OutputOnly	0	42	42	BatchNorm-op560
+%111T	#1024S	#512S	&0	&0	OutputOnly	0	42	42	BatchNorm-op560
+%112T	#1024S	#512S	&0	&0	OutputOnly	0	42	42	BatchNorm-op560
+%113T	#1536S	#1024S	&0	&0	Workspace	0	42	42	BatchNorm-op560
+%114T	#401920S	#401408S	&0	&0	Common	0	43	44	ReLU-op561
+%115T	#1606144S	#1605632S	&0	&0	Common	0	44	45	Conv2D-op562
+%116T	#1606144S	#1605632S	&0	&0	Common	0	45	46	BatchNorm-op563
+%117T	#2560S	#2048S	&0	&0	OutputOnly	0	45	45	BatchNorm-op563
+%118T	#2560S	#2048S	&0	&0	OutputOnly	0	45	45	BatchNorm-op563
+%119T	#2560S	#2048S	&0	&0	OutputOnly	0	45	45	BatchNorm-op563
+%120T	#2560S	#2048S	&0	&0	OutputOnly	0	45	45	BatchNorm-op563
+%121T	#4608S	#4096S	&0	&0	Workspace	0	45	45	BatchNorm-op563
+%122T	#1606144S	#1605632S	&0	&0	Common	0	46	47	Add-op564
+%123T	#1606144S	#1605632S	&0	&0	Common	0	47	56	ReLU-op565
+%124T	#401920S	#401408S	&0	&0	Common	0	48	49	Conv2D-op566
+%125T	#401920S	#401408S	&0	&0	Common	0	49	50	BatchNorm-op567
+%126T	#1024S	#512S	&0	&0	OutputOnly	0	49	49	BatchNorm-op567
+%127T	#1024S	#512S	&0	&0	OutputOnly	0	49	49	BatchNorm-op567
+%128T	#1024S	#512S	&0	&0	OutputOnly	0	49	49	BatchNorm-op567
+%129T	#1024S	#512S	&0	&0	OutputOnly	0	49	49	BatchNorm-op567
+%130T	#1536S	#1024S	&0	&0	Workspace	0	49	49	BatchNorm-op567
+%131T	#401920S	#401408S	&0	&0	Common	0	50	51	ReLU-op568
+%132T	#401920S	#401408S	&0	&0	Common	0	51	52	Conv2D-op569
+%133T	#401920S	#401408S	&0	&0	Common	0	52	53	BatchNorm-op570
+%134T	#1024S	#512S	&0	&0	OutputOnly	0	52	52	BatchNorm-op570
+%135T	#1024S	#512S	&0	&0	OutputOnly	0	52	52	BatchNorm-op570
+%136T	#1024S	#512S	&0	&0	OutputOnly	0	52	52	BatchNorm-op570
+%137T	#1024S	#512S	&0	&0	OutputOnly	0	52	52	BatchNorm-op570
+%138T	#1536S	#1024S	&0	&0	Workspace	0	52	52	BatchNorm-op570
+%139T	#401920S	#401408S	&0	&0	Common	0	53	54	ReLU-op571
+%140T	#1606144S	#1605632S	&0	&0	Common	0	54	55	Conv2D-op572
+%141T	#1606144S	#1605632S	&0	&0	Common	0	55	56	BatchNorm-op573
+%142T	#2560S	#2048S	&0	&0	OutputOnly	0	55	55	BatchNorm-op573
+%143T	#2560S	#2048S	&0	&0	OutputOnly	0	55	55	BatchNorm-op573
+%144T	#2560S	#2048S	&0	&0	OutputOnly	0	55	55	BatchNorm-op573
+%145T	#2560S	#2048S	&0	&0	OutputOnly	0	55	55	BatchNorm-op573
+%146T	#4608S	#4096S	&0	&0	Workspace	0	55	55	BatchNorm-op573
+%147T	#1606144S	#1605632S	&0	&0	Common	0	56	57	Add-op574
+%148T	#1606144S	#1605632S	&0	&0	Common	0	57	66	ReLU-op575
+%149T	#401920S	#401408S	&0	&0	Common	0	58	59	Conv2D-op576
+%150T	#401920S	#401408S	&0	&0	Common	0	59	60	BatchNorm-op577
+%151T	#1024S	#512S	&0	&0	OutputOnly	0	59	59	BatchNorm-op577
+%152T	#1024S	#512S	&0	&0	OutputOnly	0	59	59	BatchNorm-op577
+%153T	#1024S	#512S	&0	&0	OutputOnly	0	59	59	BatchNorm-op577
+%154T	#1024S	#512S	&0	&0	OutputOnly	0	59	59	BatchNorm-op577
+%155T	#1536S	#1024S	&0	&0	Workspace	0	59	59	BatchNorm-op577
+%156T	#401920S	#401408S	&0	&0	Common	0	60	61	ReLU-op578
+%157T	#401920S	#401408S	&0	&0	Common	0	61	62	Conv2D-op579
+%158T	#401920S	#401408S	&0	&0	Common	0	62	63	BatchNorm-op580
+%159T	#1024S	#512S	&0	&0	OutputOnly	0	62	62	BatchNorm-op580
+%160T	#1024S	#512S	&0	&0	OutputOnly	0	62	62	BatchNorm-op580
+%161T	#1024S	#512S	&0	&0	OutputOnly	0	62	62	BatchNorm-op580
+%162T	#1024S	#512S	&0	&0	OutputOnly	0	62	62	BatchNorm-op580
+%163T	#1536S	#1024S	&0	&0	Workspace	0	62	62	BatchNorm-op580
+%164T	#401920S	#401408S	&0	&0	Common	0	63	64	ReLU-op581
+%165T	#1606144S	#1605632S	&0	&0	Common	0	64	65	Conv2D-op582
+%166T	#1606144S	#1605632S	&0	&0	Common	0	65	66	BatchNorm-op583
+%167T	#2560S	#2048S	&0	&0	OutputOnly	0	65	65	BatchNorm-op583
+%168T	#2560S	#2048S	&0	&0	OutputOnly	0	65	65	BatchNorm-op583
+%169T	#2560S	#2048S	&0	&0	OutputOnly	0	65	65	BatchNorm-op583
+%170T	#2560S	#2048S	&0	&0	OutputOnly	0	65	65	BatchNorm-op583
+%171T	#4608S	#4096S	&0	&0	Workspace	0	65	65	BatchNorm-op583
+%172T	#1606144S	#1605632S	&0	&0	Common	0	66	67	Add-op584
+%173T	#1606144S	#1605632S	&0	&0	Common	0	67	76	ReLU-op585
+%174T	#401920S	#401408S	&0	&0	Common	0	68	69	Conv2D-op586
+%175T	#401920S	#401408S	&0	&0	Common	0	69	70	BatchNorm-op587
+%176T	#1024S	#512S	&0	&0	OutputOnly	0	69	69	BatchNorm-op587
+%177T	#1024S	#512S	&0	&0	OutputOnly	0	69	69	BatchNorm-op587
+%178T	#1024S	#512S	&0	&0	OutputOnly	0	69	69	BatchNorm-op587
+%179T	#1024S	#512S	&0	&0	OutputOnly	0	69	69	BatchNorm-op587
+%180T	#1536S	#1024S	&0	&0	Workspace	0	69	69	BatchNorm-op587
+%181T	#401920S	#401408S	&0	&0	Common	0	70	71	ReLU-op588
+%182T	#401920S	#401408S	&0	&0	Common	0	71	72	Conv2D-op589
+%183T	#401920S	#401408S	&0	&0	Common	0	72	73	BatchNorm-op590
+%184T	#1024S	#512S	&0	&0	OutputOnly	0	72	72	BatchNorm-op590
+%185T	#1024S	#512S	&0	&0	OutputOnly	0	72	72	BatchNorm-op590
+%186T	#1024S	#512S	&0	&0	OutputOnly	0	72	72	BatchNorm-op590
+%187T	#1024S	#512S	&0	&0	OutputOnly	0	72	72	BatchNorm-op590
+%188T	#1536S	#1024S	&0	&0	Workspace	0	72	72	BatchNorm-op590
+%189T	#401920S	#401408S	&0	&0	Common	0	73	74	ReLU-op591
+%190T	#1606144S	#1605632S	&0	&0	Common	0	74	75	Conv2D-op592
+%191T	#1606144S	#1605632S	&0	&0	Common	0	75	76	BatchNorm-op593
+%192T	#2560S	#2048S	&0	&0	OutputOnly	0	75	75	BatchNorm-op593
+%193T	#2560S	#2048S	&0	&0	OutputOnly	0	75	75	BatchNorm-op593
+%194T	#2560S	#2048S	&0	&0	OutputOnly	0	75	75	BatchNorm-op593
+%195T	#2560S	#2048S	&0	&0	OutputOnly	0	75	75	BatchNorm-op593
+%196T	#4608S	#4096S	&0	&0	Workspace	0	75	75	BatchNorm-op593
+%197T	#1606144S	#1605632S	&0	&0	Common	0	76	77	Add-op594
+%198T	#1606144S	#1605632S	&0	&0	Common	0	77	79	ReLU-op595
+%199T	#803328S	#802816S	&0	&0	Common	0	78	80	Conv2D-op596
+%200T	#803328S	#802816S	&0	&0	Common	0	79	81	Conv2D-op597
+%201T	#803328S	#802816S	&0	&0	Common	0	80	88	BatchNorm-op598
+%202T	#4608S	#4096S	&0	&0	OutputOnly	0	80	80	BatchNorm-op598
+%203T	#4608S	#4096S	&0	&0	OutputOnly	0	80	80	BatchNorm-op598
+%204T	#4608S	#4096S	&0	&0	OutputOnly	0	80	80	BatchNorm-op598
+%205T	#4608S	#4096S	&0	&0	OutputOnly	0	80	80	BatchNorm-op598
+%206T	#8704S	#8192S	&0	&0	Workspace	0	80	80	BatchNorm-op598
+%207T	#803328S	#802816S	&0	&0	Common	0	81	82	BatchNorm-op599
+%208T	#1536S	#1024S	&0	&0	OutputOnly	0	81	81	BatchNorm-op599
+%209T	#1536S	#1024S	&0	&0	OutputOnly	0	81	81	BatchNorm-op599
+%210T	#1536S	#1024S	&0	&0	OutputOnly	0	81	81	BatchNorm-op599
+%211T	#1536S	#1024S	&0	&0	OutputOnly	0	81	81	BatchNorm-op599
+%212T	#2560S	#2048S	&0	&0	Workspace	0	81	81	BatchNorm-op599
+%213T	#803328S	#802816S	&0	&0	Common	0	82	83	ReLU-op600
+%214T	#201216S	#200704S	&0	&0	Common	0	83	84	Conv2D-op601
+%215T	#201216S	#200704S	&0	&0	Common	0	84	85	BatchNorm-op602
+%216T	#1536S	#1024S	&0	&0	OutputOnly	0	84	84	BatchNorm-op602
+%217T	#1536S	#1024S	&0	&0	OutputOnly	0	84	84	BatchNorm-op602
+%218T	#1536S	#1024S	&0	&0	OutputOnly	0	84	84	BatchNorm-op602
+%219T	#1536S	#1024S	&0	&0	OutputOnly	0	84	84	BatchNorm-op602
+%220T	#2560S	#2048S	&0	&0	Workspace	0	84	84	BatchNorm-op602
+%221T	#201216S	#200704S	&0	&0	Common	0	85	86	ReLU-op603
+%222T	#803328S	#802816S	&0	&0	Common	0	86	87	Conv2D-op604
+%223T	#803328S	#802816S	&0	&0	Common	0	87	88	BatchNorm-op605
+%224T	#4608S	#4096S	&0	&0	OutputOnly	0	87	87	BatchNorm-op605
+%225T	#4608S	#4096S	&0	&0	OutputOnly	0	87	87	BatchNorm-op605
+%226T	#4608S	#4096S	&0	&0	OutputOnly	0	87	87	BatchNorm-op605
+%227T	#4608S	#4096S	&0	&0	OutputOnly	0	87	87	BatchNorm-op605
+%228T	#8704S	#8192S	&0	&0	Workspace	0	87	87	BatchNorm-op605
+%229T	#803328S	#802816S	&0	&0	Common	0	88	89	Add-op606
+%230T	#803328S	#802816S	&0	&0	Common	0	89	98	ReLU-op607
+%231T	#201216S	#200704S	&0	&0	Common	0	90	91	Conv2D-op608
+%232T	#201216S	#200704S	&0	&0	Common	0	91	92	BatchNorm-op609
+%233T	#1536S	#1024S	&0	&0	OutputOnly	0	91	91	BatchNorm-op609
+%234T	#1536S	#1024S	&0	&0	OutputOnly	0	91	91	BatchNorm-op609
+%235T	#1536S	#1024S	&0	&0	OutputOnly	0	91	91	BatchNorm-op609
+%236T	#1536S	#1024S	&0	&0	OutputOnly	0	91	91	BatchNorm-op609
+%237T	#2560S	#2048S	&0	&0	Workspace	0	91	91	BatchNorm-op609
+%238T	#201216S	#200704S	&0	&0	Common	0	92	93	ReLU-op610
+%239T	#201216S	#200704S	&0	&0	Common	0	93	94	Conv2D-op611
+%240T	#201216S	#200704S	&0	&0	Common	0	94	95	BatchNorm-op612
+%241T	#1536S	#1024S	&0	&0	OutputOnly	0	94	94	BatchNorm-op612
+%242T	#1536S	#1024S	&0	&0	OutputOnly	0	94	94	BatchNorm-op612
+%243T	#1536S	#1024S	&0	&0	OutputOnly	0	94	94	BatchNorm-op612
+%244T	#1536S	#1024S	&0	&0	OutputOnly	0	94	94	BatchNorm-op612
+%245T	#2560S	#2048S	&0	&0	Workspace	0	94	94	BatchNorm-op612
+%246T	#201216S	#200704S	&0	&0	Common	0	95	96	ReLU-op613
+%247T	#803328S	#802816S	&0	&0	Common	0	96	97	Conv2D-op614
+%248T	#803328S	#802816S	&0	&0	Common	0	97	98	BatchNorm-op615
+%249T	#4608S	#4096S	&0	&0	OutputOnly	0	97	97	BatchNorm-op615
+%250T	#4608S	#4096S	&0	&0	OutputOnly	0	97	97	BatchNorm-op615
+%251T	#4608S	#4096S	&0	&0	OutputOnly	0	97	97	BatchNorm-op615
+%252T	#4608S	#4096S	&0	&0	OutputOnly	0	97	97	BatchNorm-op615
+%253T	#8704S	#8192S	&0	&0	Workspace	0	97	97	BatchNorm-op615
+%254T	#803328S	#802816S	&0	&0	Common	0	98	99	Add-op616
+%255T	#803328S	#802816S	&0	&0	Common	0	99	108	ReLU-op617
+%256T	#201216S	#200704S	&0	&0	Common	0	100	101	Conv2D-op618
+%257T	#201216S	#200704S	&0	&0	Common	0	101	102	BatchNorm-op619
+%258T	#1536S	#1024S	&0	&0	OutputOnly	0	101	101	BatchNorm-op619
+%259T	#1536S	#1024S	&0	&0	OutputOnly	0	101	101	BatchNorm-op619
+%260T	#1536S	#1024S	&0	&0	OutputOnly	0	101	101	BatchNorm-op619
+%261T	#1536S	#1024S	&0	&0	OutputOnly	0	101	101	BatchNorm-op619
+%262T	#2560S	#2048S	&0	&0	Workspace	0	101	101	BatchNorm-op619
+%263T	#201216S	#200704S	&0	&0	Common	0	102	103	ReLU-op620
+%264T	#201216S	#200704S	&0	&0	Common	0	103	104	Conv2D-op621
+%265T	#201216S	#200704S	&0	&0	Common	0	104	105	BatchNorm-op622
+%266T	#1536S	#1024S	&0	&0	OutputOnly	0	104	104	BatchNorm-op622
+%267T	#1536S	#1024S	&0	&0	OutputOnly	0	104	104	BatchNorm-op622
+%268T	#1536S	#1024S	&0	&0	OutputOnly	0	104	104	BatchNorm-op622
+%269T	#1536S	#1024S	&0	&0	OutputOnly	0	104	104	BatchNorm-op622
+%270T	#2560S	#2048S	&0	&0	Workspace	0	104	104	BatchNorm-op622
+%271T	#201216S	#200704S	&0	&0	Common	0	105	106	ReLU-op623
+%272T	#803328S	#802816S	&0	&0	Common	0	106	107	Conv2D-op624
+%273T	#803328S	#802816S	&0	&0	Common	0	107	108	BatchNorm-op625
+%274T	#4608S	#4096S	&0	&0	OutputOnly	0	107	107	BatchNorm-op625
+%275T	#4608S	#4096S	&0	&0	OutputOnly	0	107	107	BatchNorm-op625
+%276T	#4608S	#4096S	&0	&0	OutputOnly	0	107	107	BatchNorm-op625
+%277T	#4608S	#4096S	&0	&0	OutputOnly	0	107	107	BatchNorm-op625
+%278T	#8704S	#8192S	&0	&0	Workspace	0	107	107	BatchNorm-op625
+%279T	#803328S	#802816S	&0	&0	Common	0	108	109	Add-op626
+%280T	#803328S	#802816S	&0	&0	Common	0	109	118	ReLU-op627
+%281T	#201216S	#200704S	&0	&0	Common	0	110	111	Conv2D-op628
+%282T	#201216S	#200704S	&0	&0	Common	0	111	112	BatchNorm-op629
+%283T	#1536S	#1024S	&0	&0	OutputOnly	0	111	111	BatchNorm-op629
+%284T	#1536S	#1024S	&0	&0	OutputOnly	0	111	111	BatchNorm-op629
+%285T	#1536S	#1024S	&0	&0	OutputOnly	0	111	111	BatchNorm-op629
+%286T	#1536S	#1024S	&0	&0	OutputOnly	0	111	111	BatchNorm-op629
+%287T	#2560S	#2048S	&0	&0	Workspace	0	111	111	BatchNorm-op629
+%288T	#201216S	#200704S	&0	&0	Common	0	112	113	ReLU-op630
+%289T	#201216S	#200704S	&0	&0	Common	0	113	114	Conv2D-op631
+%290T	#201216S	#200704S	&0	&0	Common	0	114	115	BatchNorm-op632
+%291T	#1536S	#1024S	&0	&0	OutputOnly	0	114	114	BatchNorm-op632
+%292T	#1536S	#1024S	&0	&0	OutputOnly	0	114	114	BatchNorm-op632
+%293T	#1536S	#1024S	&0	&0	OutputOnly	0	114	114	BatchNorm-op632
+%294T	#1536S	#1024S	&0	&0	OutputOnly	0	114	114	BatchNorm-op632
+%295T	#2560S	#2048S	&0	&0	Workspace	0	114	114	BatchNorm-op632
+%296T	#201216S	#200704S	&0	&0	Common	0	115	116	ReLU-op633
+%297T	#803328S	#802816S	&0	&0	Common	0	116	117	Conv2D-op634
+%298T	#803328S	#802816S	&0	&0	Common	0	117	118	BatchNorm-op635
+%299T	#4608S	#4096S	&0	&0	OutputOnly	0	117	117	BatchNorm-op635
+%300T	#4608S	#4096S	&0	&0	OutputOnly	0	117	117	BatchNorm-op635
+%301T	#4608S	#4096S	&0	&0	OutputOnly	0	117	117	BatchNorm-op635
+%302T	#4608S	#4096S	&0	&0	OutputOnly	0	117	117	BatchNorm-op635
+%303T	#8704S	#8192S	&0	&0	Workspace	0	117	117	BatchNorm-op635
+%304T	#803328S	#802816S	&0	&0	Common	0	118	119	Add-op636
+%305T	#803328S	#802816S	&0	&0	Common	0	119	128	ReLU-op637
+%306T	#201216S	#200704S	&0	&0	Common	0	120	121	Conv2D-op638
+%307T	#201216S	#200704S	&0	&0	Common	0	121	122	BatchNorm-op639
+%308T	#1536S	#1024S	&0	&0	OutputOnly	0	121	121	BatchNorm-op639
+%309T	#1536S	#1024S	&0	&0	OutputOnly	0	121	121	BatchNorm-op639
+%310T	#1536S	#1024S	&0	&0	OutputOnly	0	121	121	BatchNorm-op639
+%311T	#1536S	#1024S	&0	&0	OutputOnly	0	121	121	BatchNorm-op639
+%312T	#2560S	#2048S	&0	&0	Workspace	0	121	121	BatchNorm-op639
+%313T	#201216S	#200704S	&0	&0	Common	0	122	123	ReLU-op640
+%314T	#201216S	#200704S	&0	&0	Common	0	123	124	Conv2D-op641
+%315T	#201216S	#200704S	&0	&0	Common	0	124	125	BatchNorm-op642
+%316T	#1536S	#1024S	&0	&0	OutputOnly	0	124	124	BatchNorm-op642
+%317T	#1536S	#1024S	&0	&0	OutputOnly	0	124	124	BatchNorm-op642
+%318T	#1536S	#1024S	&0	&0	OutputOnly	0	124	124	BatchNorm-op642
+%319T	#1536S	#1024S	&0	&0	OutputOnly	0	124	124	BatchNorm-op642
+%320T	#2560S	#2048S	&0	&0	Workspace	0	124	124	BatchNorm-op642
+%321T	#201216S	#200704S	&0	&0	Common	0	125	126	ReLU-op643
+%322T	#803328S	#802816S	&0	&0	Common	0	126	127	Conv2D-op644
+%323T	#803328S	#802816S	&0	&0	Common	0	127	128	BatchNorm-op645
+%324T	#4608S	#4096S	&0	&0	OutputOnly	0	127	127	BatchNorm-op645
+%325T	#4608S	#4096S	&0	&0	OutputOnly	0	127	127	BatchNorm-op645
+%326T	#4608S	#4096S	&0	&0	OutputOnly	0	127	127	BatchNorm-op645
+%327T	#4608S	#4096S	&0	&0	OutputOnly	0	127	127	BatchNorm-op645
+%328T	#8704S	#8192S	&0	&0	Workspace	0	127	127	BatchNorm-op645
+%329T	#803328S	#802816S	&0	&0	Common	0	128	129	Add-op646
+%330T	#803328S	#802816S	&0	&0	Common	0	129	138	ReLU-op647
+%331T	#201216S	#200704S	&0	&0	Common	0	130	131	Conv2D-op648
+%332T	#201216S	#200704S	&0	&0	Common	0	131	132	BatchNorm-op649
+%333T	#1536S	#1024S	&0	&0	OutputOnly	0	131	131	BatchNorm-op649
+%334T	#1536S	#1024S	&0	&0	OutputOnly	0	131	131	BatchNorm-op649
+%335T	#1536S	#1024S	&0	&0	OutputOnly	0	131	131	BatchNorm-op649
+%336T	#1536S	#1024S	&0	&0	OutputOnly	0	131	131	BatchNorm-op649
+%337T	#2560S	#2048S	&0	&0	Workspace	0	131	131	BatchNorm-op649
+%338T	#201216S	#200704S	&0	&0	Common	0	132	133	ReLU-op650
+%339T	#201216S	#200704S	&0	&0	Common	0	133	134	Conv2D-op651
+%340T	#201216S	#200704S	&0	&0	Common	0	134	135	BatchNorm-op652
+%341T	#1536S	#1024S	&0	&0	OutputOnly	0	134	134	BatchNorm-op652
+%342T	#1536S	#1024S	&0	&0	OutputOnly	0	134	134	BatchNorm-op652
+%343T	#1536S	#1024S	&0	&0	OutputOnly	0	134	134	BatchNorm-op652
+%344T	#1536S	#1024S	&0	&0	OutputOnly	0	134	134	BatchNorm-op652
+%345T	#2560S	#2048S	&0	&0	Workspace	0	134	134	BatchNorm-op652
+%346T	#201216S	#200704S	&0	&0	Common	0	135	136	ReLU-op653
+%347T	#803328S	#802816S	&0	&0	Common	0	136	137	Conv2D-op654
+%348T	#803328S	#802816S	&0	&0	Common	0	137	138	BatchNorm-op655
+%349T	#4608S	#4096S	&0	&0	OutputOnly	0	137	137	BatchNorm-op655
+%350T	#4608S	#4096S	&0	&0	OutputOnly	0	137	137	BatchNorm-op655
+%351T	#4608S	#4096S	&0	&0	OutputOnly	0	137	137	BatchNorm-op655
+%352T	#4608S	#4096S	&0	&0	OutputOnly	0	137	137	BatchNorm-op655
+%353T	#8704S	#8192S	&0	&0	Workspace	0	137	137	BatchNorm-op655
+%354T	#803328S	#802816S	&0	&0	Common	0	138	139	Add-op656
+%355T	#803328S	#802816S	&0	&0	Common	0	139	141	ReLU-op657
+%356T	#401920S	#401408S	&0	&0	Common	0	140	142	Conv2D-op658
+%357T	#401920S	#401408S	&0	&0	Common	0	141	143	Conv2D-op659
+%358T	#401920S	#401408S	&0	&0	Common	0	142	150	BatchNorm-op660
+%359T	#8704S	#8192S	&0	&0	OutputOnly	0	142	142	BatchNorm-op660
+%360T	#8704S	#8192S	&0	&0	OutputOnly	0	142	142	BatchNorm-op660
+%361T	#8704S	#8192S	&0	&0	OutputOnly	0	142	142	BatchNorm-op660
+%362T	#8704S	#8192S	&0	&0	OutputOnly	0	142	142	BatchNorm-op660
+%363T	#16896S	#16384S	&0	&0	Workspace	0	142	142	BatchNorm-op660
+%364T	#401920S	#401408S	&0	&0	Common	0	143	144	BatchNorm-op661
+%365T	#2560S	#2048S	&0	&0	OutputOnly	0	143	143	BatchNorm-op661
+%366T	#2560S	#2048S	&0	&0	OutputOnly	0	143	143	BatchNorm-op661
+%367T	#2560S	#2048S	&0	&0	OutputOnly	0	143	143	BatchNorm-op661
+%368T	#2560S	#2048S	&0	&0	OutputOnly	0	143	143	BatchNorm-op661
+%369T	#4608S	#4096S	&0	&0	Workspace	0	143	143	BatchNorm-op661
+%370T	#401920S	#401408S	&0	&0	Common	0	144	145	ReLU-op662
+%371T	#100864S	#100352S	&0	&0	Common	0	145	146	Conv2D-op663
+%372T	#100864S	#100352S	&0	&0	Common	0	146	147	BatchNorm-op664
+%373T	#2560S	#2048S	&0	&0	OutputOnly	0	146	146	BatchNorm-op664
+%374T	#2560S	#2048S	&0	&0	OutputOnly	0	146	146	BatchNorm-op664
+%375T	#2560S	#2048S	&0	&0	OutputOnly	0	146	146	BatchNorm-op664
+%376T	#2560S	#2048S	&0	&0	OutputOnly	0	146	146	BatchNorm-op664
+%377T	#4608S	#4096S	&0	&0	Workspace	0	146	146	BatchNorm-op664
+%378T	#100864S	#100352S	&0	&0	Common	0	147	148	ReLU-op665
+%379T	#401920S	#401408S	&0	&0	Common	0	148	149	Conv2D-op666
+%380T	#401920S	#401408S	&0	&0	Common	0	149	150	BatchNorm-op667
+%381T	#8704S	#8192S	&0	&0	OutputOnly	0	149	149	BatchNorm-op667
+%382T	#8704S	#8192S	&0	&0	OutputOnly	0	149	149	BatchNorm-op667
+%383T	#8704S	#8192S	&0	&0	OutputOnly	0	149	149	BatchNorm-op667
+%384T	#8704S	#8192S	&0	&0	OutputOnly	0	149	149	BatchNorm-op667
+%385T	#16896S	#16384S	&0	&0	Workspace	0	149	149	BatchNorm-op667
+%386T	#401920S	#401408S	&0	&0	Common	0	150	151	Add-op668
+%387T	#401920S	#401408S	&0	&0	Common	0	151	160	ReLU-op669
+%388T	#100864S	#100352S	&0	&0	Common	0	152	153	Conv2D-op670
+%389T	#100864S	#100352S	&0	&0	Common	0	153	154	BatchNorm-op671
+%390T	#2560S	#2048S	&0	&0	OutputOnly	0	153	153	BatchNorm-op671
+%391T	#2560S	#2048S	&0	&0	OutputOnly	0	153	153	BatchNorm-op671
+%392T	#2560S	#2048S	&0	&0	OutputOnly	0	153	153	BatchNorm-op671
+%393T	#2560S	#2048S	&0	&0	OutputOnly	0	153	153	BatchNorm-op671
+%394T	#4608S	#4096S	&0	&0	Workspace	0	153	153	BatchNorm-op671
+%395T	#100864S	#100352S	&0	&0	Common	0	154	155	ReLU-op672
+%396T	#100864S	#100352S	&0	&0	Common	0	155	156	Conv2D-op673
+%397T	#100864S	#100352S	&0	&0	Common	0	156	157	BatchNorm-op674
+%398T	#2560S	#2048S	&0	&0	OutputOnly	0	156	156	BatchNorm-op674
+%399T	#2560S	#2048S	&0	&0	OutputOnly	0	156	156	BatchNorm-op674
+%400T	#2560S	#2048S	&0	&0	OutputOnly	0	156	156	BatchNorm-op674
+%401T	#2560S	#2048S	&0	&0	OutputOnly	0	156	156	BatchNorm-op674
+%402T	#4608S	#4096S	&0	&0	Workspace	0	156	156	BatchNorm-op674
+%403T	#100864S	#100352S	&0	&0	Common	0	157	158	ReLU-op675
+%404T	#401920S	#401408S	&0	&0	Common	0	158	159	Conv2D-op676
+%405T	#401920S	#401408S	&0	&0	Common	0	159	160	BatchNorm-op677
+%406T	#8704S	#8192S	&0	&0	OutputOnly	0	159	159	BatchNorm-op677
+%407T	#8704S	#8192S	&0	&0	OutputOnly	0	159	159	BatchNorm-op677
+%408T	#8704S	#8192S	&0	&0	OutputOnly	0	159	159	BatchNorm-op677
+%409T	#8704S	#8192S	&0	&0	OutputOnly	0	159	159	BatchNorm-op677
+%410T	#16896S	#16384S	&0	&0	Workspace	0	159	159	BatchNorm-op677
+%411T	#401920S	#401408S	&0	&0	Common	0	160	161	Add-op678
+%412T	#401920S	#401408S	&0	&0	Common	0	161	170	ReLU-op679
+%413T	#100864S	#100352S	&0	&0	Common	0	162	163	Conv2D-op680
+%414T	#100864S	#100352S	&0	&0	Common	0	163	164	BatchNorm-op681
+%415T	#2560S	#2048S	&0	&0	OutputOnly	0	163	163	BatchNorm-op681
+%416T	#2560S	#2048S	&0	&0	OutputOnly	0	163	163	BatchNorm-op681
+%417T	#2560S	#2048S	&0	&0	OutputOnly	0	163	163	BatchNorm-op681
+%418T	#2560S	#2048S	&0	&0	OutputOnly	0	163	163	BatchNorm-op681
+%419T	#4608S	#4096S	&0	&0	Workspace	0	163	163	BatchNorm-op681
+%420T	#100864S	#100352S	&0	&0	Common	0	164	165	ReLU-op682
+%421T	#100864S	#100352S	&0	&0	Common	0	165	166	Conv2D-op683
+%422T	#100864S	#100352S	&0	&0	Common	0	166	167	BatchNorm-op684
+%423T	#2560S	#2048S	&0	&0	OutputOnly	0	166	166	BatchNorm-op684
+%424T	#2560S	#2048S	&0	&0	OutputOnly	0	166	166	BatchNorm-op684
+%425T	#2560S	#2048S	&0	&0	OutputOnly	0	166	166	BatchNorm-op684
+%426T	#2560S	#2048S	&0	&0	OutputOnly	0	166	166	BatchNorm-op684
+%427T	#4608S	#4096S	&0	&0	Workspace	0	166	166	BatchNorm-op684
+%428T	#100864S	#100352S	&0	&0	Common	0	167	168	ReLU-op685
+%429T	#401920S	#401408S	&0	&0	Common	0	168	169	Conv2D-op686
+%430T	#401920S	#401408S	&0	&0	Common	0	169	170	BatchNorm-op687
+%431T	#8704S	#8192S	&0	&0	OutputOnly	0	169	169	BatchNorm-op687
+%432T	#8704S	#8192S	&0	&0	OutputOnly	0	169	169	BatchNorm-op687
+%433T	#8704S	#8192S	&0	&0	OutputOnly	0	169	169	BatchNorm-op687
+%434T	#8704S	#8192S	&0	&0	OutputOnly	0	169	169	BatchNorm-op687
+%435T	#16896S	#16384S	&0	&0	Workspace	0	169	169	BatchNorm-op687
+%436T	#401920S	#401408S	&0	&0	Common	0	170	171	Add-op688
+%437T	#401920S	#401408S	&0	&0	Common	0	171	172	ReLU-op689
+%438T	#8704S	#8192S	&0	&0	Common	0	172	173	ReduceMean-op690
+%439T	#8704S	#8192S	&0	&0	Common	0	173	174	Reshape-op691
+%440T	#512S	#400S	&0	&0	Common	0	174	175	MatMul-op692
+%441T	#512S	#400S	&0	&0	Common	0	175	177	BiasAdd-op693
+%442T	#512S	#400S	&0	&0	Common	0	176	177	Mul-op694
+%443T	#512S	#400S	&0	&0	Common	0	177	178	Maximum-op695
+%444T	#512S	#200S	&0	&0	Common	0	178	179	MatMul-op696
+%445T	#512S	#200S	&0	&0	Common	0	179	181	BiasAdd-op697
+%446T	#512S	#200S	&0	&0	Common	0	180	181	Mul-op698
+%447T	#512S	#200S	&0	&0	Common	0	181	182	Maximum-op699
+%448T	#512S	#32S	&0	&0	Common	0	182	183	MatMul-op700
+%449T	#512S	#32S	&0	&0	OutputOnly	0	183	183	BiasAdd-op701
+
+
+All Nodes:
+
+$0	Conv2D-op518	0	inputs[%0P, %1P, ]	outputs[%0T, ]	workspace[]	streamID[@4294967295]
+$1	BatchNorm-op519	0	inputs[%0T, %2P, %3P, %4P, %5P, ]	outputs[%1T, %2T, %3T, %4T, %5T, ]	workspace[%6T, ]	streamID[@4294967295]
+$2	ReLU-op520	0	inputs[%1T, ]	outputs[%7T, ]	workspace[]	streamID[@4294967295]
+$3	MaxPool-op521	0	inputs[%7T, ]	outputs[%8T, ]	workspace[%9T, ]	streamID[@4294967295]
+$4	Conv2D-op522	0	inputs[%8T, %6P, ]	outputs[%10T, ]	workspace[]	streamID[@4294967295]
+$5	BatchNorm-op523	0	inputs[%10T, %7P, %8P, %9P, %10P, ]	outputs[%11T, %12T, %13T, %14T, %15T, ]	workspace[%16T, ]	streamID[@4294967295]
+$6	Conv2D-op524	0	inputs[%8T, %11P, ]	outputs[%17T, ]	workspace[]	streamID[@4294967295]
+$7	BatchNorm-op525	0	inputs[%17T, %12P, %13P, %14P, %15P, ]	outputs[%18T, %19T, %20T, %21T, %22T, ]	workspace[%23T, ]	streamID[@4294967295]
+$8	ReLU-op526	0	inputs[%18T, ]	outputs[%24T, ]	workspace[]	streamID[@4294967295]
+$9	Conv2D-op527	0	inputs[%24T, %16P, ]	outputs[%25T, ]	workspace[]	streamID[@4294967295]
+$10	BatchNorm-op528	0	inputs[%25T, %17P, %18P, %19P, %20P, ]	outputs[%26T, %27T, %28T, %29T, %30T, ]	workspace[%31T, ]	streamID[@4294967295]
+$11	ReLU-op529	0	inputs[%26T, ]	outputs[%32T, ]	workspace[]	streamID[@4294967295]
+$12	Conv2D-op530	0	inputs[%32T, %21P, ]	outputs[%33T, ]	workspace[]	streamID[@4294967295]
+$13	BatchNorm-op531	0	inputs[%33T, %22P, %23P, %24P, %25P, ]	outputs[%34T, %35T, %36T, %37T, %38T, ]	workspace[%39T, ]	streamID[@4294967295]
+$14	Add-op532	0	inputs[%34T, %11T, ]	outputs[%40T, ]	workspace[]	streamID[@4294967295]
+$15	ReLU-op533	0	inputs[%40T, ]	outputs[%41T, ]	workspace[]	streamID[@4294967295]
+$16	Conv2D-op534	0	inputs[%41T, %26P, ]	outputs[%42T, ]	workspace[]	streamID[@4294967295]
+$17	BatchNorm-op535	0	inputs[%42T, %27P, %28P, %29P, %30P, ]	outputs[%43T, %44T, %45T, %46T, %47T, ]	workspace[%48T, ]	streamID[@4294967295]
+$18	ReLU-op536	0	inputs[%43T, ]	outputs[%49T, ]	workspace[]	streamID[@4294967295]
+$19	Conv2D-op537	0	inputs[%49T, %31P, ]	outputs[%50T, ]	workspace[]	streamID[@4294967295]
+$20	BatchNorm-op538	0	inputs[%50T, %32P, %33P, %34P, %35P, ]	outputs[%51T, %52T, %53T, %54T, %55T, ]	workspace[%56T, ]	streamID[@4294967295]
+$21	ReLU-op539	0	inputs[%51T, ]	outputs[%57T, ]	workspace[]	streamID[@4294967295]
+$22	Conv2D-op540	0	inputs[%57T, %36P, ]	outputs[%58T, ]	workspace[]	streamID[@4294967295]
+$23	BatchNorm-op541	0	inputs[%58T, %37P, %38P, %39P, %40P, ]	outputs[%59T, %60T, %61T, %62T, %63T, ]	workspace[%64T, ]	streamID[@4294967295]
+$24	Add-op542	0	inputs[%59T, %41T, ]	outputs[%65T, ]	workspace[]	streamID[@4294967295]
+$25	ReLU-op543	0	inputs[%65T, ]	outputs[%66T, ]	workspace[]	streamID[@4294967295]
+$26	Conv2D-op544	0	inputs[%66T, %41P, ]	outputs[%67T, ]	workspace[]	streamID[@4294967295]
+$27	BatchNorm-op545	0	inputs[%67T, %42P, %43P, %44P, %45P, ]	outputs[%68T, %69T, %70T, %71T, %72T, ]	workspace[%73T, ]	streamID[@4294967295]
+$28	ReLU-op546	0	inputs[%68T, ]	outputs[%74T, ]	workspace[]	streamID[@4294967295]
+$29	Conv2D-op547	0	inputs[%74T, %46P, ]	outputs[%75T, ]	workspace[]	streamID[@4294967295]
+$30	BatchNorm-op548	0	inputs[%75T, %47P, %48P, %49P, %50P, ]	outputs[%76T, %77T, %78T, %79T, %80T, ]	workspace[%81T, ]	streamID[@4294967295]
+$31	ReLU-op549	0	inputs[%76T, ]	outputs[%82T, ]	workspace[]	streamID[@4294967295]
+$32	Conv2D-op550	0	inputs[%82T, %51P, ]	outputs[%83T, ]	workspace[]	streamID[@4294967295]
+$33	BatchNorm-op551	0	inputs[%83T, %52P, %53P, %54P, %55P, ]	outputs[%84T, %85T, %86T, %87T, %88T, ]	workspace[%89T, ]	streamID[@4294967295]
+$34	Add-op552	0	inputs[%84T, %66T, ]	outputs[%90T, ]	workspace[]	streamID[@4294967295]
+$35	ReLU-op553	0	inputs[%90T, ]	outputs[%91T, ]	workspace[]	streamID[@4294967295]
+$36	Conv2D-op554	0	inputs[%91T, %56P, ]	outputs[%92T, ]	workspace[]	streamID[@4294967295]
+$37	Conv2D-op555	0	inputs[%91T, %57P, ]	outputs[%93T, ]	workspace[]	streamID[@4294967295]
+$38	BatchNorm-op556	0	inputs[%92T, %58P, %59P, %60P, %61P, ]	outputs[%94T, %95T, %96T, %97T, %98T, ]	workspace[%99T, ]	streamID[@4294967295]
+$39	BatchNorm-op557	0	inputs[%93T, %62P, %63P, %64P, %65P, ]	outputs[%100T, %101T, %102T, %103T, %104T, ]	workspace[%105T, ]	streamID[@4294967295]
+$40	ReLU-op558	0	inputs[%100T, ]	outputs[%106T, ]	workspace[]	streamID[@4294967295]
+$41	Conv2D-op559	0	inputs[%106T, %66P, ]	outputs[%107T, ]	workspace[]	streamID[@4294967295]
+$42	BatchNorm-op560	0	inputs[%107T, %67P, %68P, %69P, %70P, ]	outputs[%108T, %109T, %110T, %111T, %112T, ]	workspace[%113T, ]	streamID[@4294967295]
+$43	ReLU-op561	0	inputs[%108T, ]	outputs[%114T, ]	workspace[]	streamID[@4294967295]
+$44	Conv2D-op562	0	inputs[%114T, %71P, ]	outputs[%115T, ]	workspace[]	streamID[@4294967295]
+$45	BatchNorm-op563	0	inputs[%115T, %72P, %73P, %74P, %75P, ]	outputs[%116T, %117T, %118T, %119T, %120T, ]	workspace[%121T, ]	streamID[@4294967295]
+$46	Add-op564	0	inputs[%116T, %94T, ]	outputs[%122T, ]	workspace[]	streamID[@4294967295]
+$47	ReLU-op565	0	inputs[%122T, ]	outputs[%123T, ]	workspace[]	streamID[@4294967295]
+$48	Conv2D-op566	0	inputs[%123T, %76P, ]	outputs[%124T, ]	workspace[]	streamID[@4294967295]
+$49	BatchNorm-op567	0	inputs[%124T, %77P, %78P, %79P, %80P, ]	outputs[%125T, %126T, %127T, %128T, %129T, ]	workspace[%130T, ]	streamID[@4294967295]
+$50	ReLU-op568	0	inputs[%125T, ]	outputs[%131T, ]	workspace[]	streamID[@4294967295]
+$51	Conv2D-op569	0	inputs[%131T, %81P, ]	outputs[%132T, ]	workspace[]	streamID[@4294967295]
+$52	BatchNorm-op570	0	inputs[%132T, %82P, %83P, %84P, %85P, ]	outputs[%133T, %134T, %135T, %136T, %137T, ]	workspace[%138T, ]	streamID[@4294967295]
+$53	ReLU-op571	0	inputs[%133T, ]	outputs[%139T, ]	workspace[]	streamID[@4294967295]
+$54	Conv2D-op572	0	inputs[%139T, %86P, ]	outputs[%140T, ]	workspace[]	streamID[@4294967295]
+$55	BatchNorm-op573	0	inputs[%140T, %87P, %88P, %89P, %90P, ]	outputs[%141T, %142T, %143T, %144T, %145T, ]	workspace[%146T, ]	streamID[@4294967295]
+$56	Add-op574	0	inputs[%141T, %123T, ]	outputs[%147T, ]	workspace[]	streamID[@4294967295]
+$57	ReLU-op575	0	inputs[%147T, ]	outputs[%148T, ]	workspace[]	streamID[@4294967295]
+$58	Conv2D-op576	0	inputs[%148T, %91P, ]	outputs[%149T, ]	workspace[]	streamID[@4294967295]
+$59	BatchNorm-op577	0	inputs[%149T, %92P, %93P, %94P, %95P, ]	outputs[%150T, %151T, %152T, %153T, %154T, ]	workspace[%155T, ]	streamID[@4294967295]
+$60	ReLU-op578	0	inputs[%150T, ]	outputs[%156T, ]	workspace[]	streamID[@4294967295]
+$61	Conv2D-op579	0	inputs[%156T, %96P, ]	outputs[%157T, ]	workspace[]	streamID[@4294967295]
+$62	BatchNorm-op580	0	inputs[%157T, %97P, %98P, %99P, %100P, ]	outputs[%158T, %159T, %160T, %161T, %162T, ]	workspace[%163T, ]	streamID[@4294967295]
+$63	ReLU-op581	0	inputs[%158T, ]	outputs[%164T, ]	workspace[]	streamID[@4294967295]
+$64	Conv2D-op582	0	inputs[%164T, %101P, ]	outputs[%165T, ]	workspace[]	streamID[@4294967295]
+$65	BatchNorm-op583	0	inputs[%165T, %102P, %103P, %104P, %105P, ]	outputs[%166T, %167T, %168T, %169T, %170T, ]	workspace[%171T, ]	streamID[@4294967295]
+$66	Add-op584	0	inputs[%166T, %148T, ]	outputs[%172T, ]	workspace[]	streamID[@4294967295]
+$67	ReLU-op585	0	inputs[%172T, ]	outputs[%173T, ]	workspace[]	streamID[@4294967295]
+$68	Conv2D-op586	0	inputs[%173T, %106P, ]	outputs[%174T, ]	workspace[]	streamID[@4294967295]
+$69	BatchNorm-op587	0	inputs[%174T, %107P, %108P, %109P, %110P, ]	outputs[%175T, %176T, %177T, %178T, %179T, ]	workspace[%180T, ]	streamID[@4294967295]
+$70	ReLU-op588	0	inputs[%175T, ]	outputs[%181T, ]	workspace[]	streamID[@4294967295]
+$71	Conv2D-op589	0	inputs[%181T, %111P, ]	outputs[%182T, ]	workspace[]	streamID[@4294967295]
+$72	BatchNorm-op590	0	inputs[%182T, %112P, %113P, %114P, %115P, ]	outputs[%183T, %184T, %185T, %186T, %187T, ]	workspace[%188T, ]	streamID[@4294967295]
+$73	ReLU-op591	0	inputs[%183T, ]	outputs[%189T, ]	workspace[]	streamID[@4294967295]
+$74	Conv2D-op592	0	inputs[%189T, %116P, ]	outputs[%190T, ]	workspace[]	streamID[@4294967295]
+$75	BatchNorm-op593	0	inputs[%190T, %117P, %118P, %119P, %120P, ]	outputs[%191T, %192T, %193T, %194T, %195T, ]	workspace[%196T, ]	streamID[@4294967295]
+$76	Add-op594	0	inputs[%191T, %173T, ]	outputs[%197T, ]	workspace[]	streamID[@4294967295]
+$77	ReLU-op595	0	inputs[%197T, ]	outputs[%198T, ]	workspace[]	streamID[@4294967295]
+$78	Conv2D-op596	0	inputs[%198T, %121P, ]	outputs[%199T, ]	workspace[]	streamID[@4294967295]
+$79	Conv2D-op597	0	inputs[%198T, %122P, ]	outputs[%200T, ]	workspace[]	streamID[@4294967295]
+$80	BatchNorm-op598	0	inputs[%199T, %123P, %124P, %125P, %126P, ]	outputs[%201T, %202T, %203T, %204T, %205T, ]	workspace[%206T, ]	streamID[@4294967295]
+$81	BatchNorm-op599	0	inputs[%200T, %127P, %128P, %129P, %130P, ]	outputs[%207T, %208T, %209T, %210T, %211T, ]	workspace[%212T, ]	streamID[@4294967295]
+$82	ReLU-op600	0	inputs[%207T, ]	outputs[%213T, ]	workspace[]	streamID[@4294967295]
+$83	Conv2D-op601	0	inputs[%213T, %131P, ]	outputs[%214T, ]	workspace[]	streamID[@4294967295]
+$84	BatchNorm-op602	0	inputs[%214T, %132P, %133P, %134P, %135P, ]	outputs[%215T, %216T, %217T, %218T, %219T, ]	workspace[%220T, ]	streamID[@4294967295]
+$85	ReLU-op603	0	inputs[%215T, ]	outputs[%221T, ]	workspace[]	streamID[@4294967295]
+$86	Conv2D-op604	0	inputs[%221T, %136P, ]	outputs[%222T, ]	workspace[]	streamID[@4294967295]
+$87	BatchNorm-op605	0	inputs[%222T, %137P, %138P, %139P, %140P, ]	outputs[%223T, %224T, %225T, %226T, %227T, ]	workspace[%228T, ]	streamID[@4294967295]
+$88	Add-op606	0	inputs[%223T, %201T, ]	outputs[%229T, ]	workspace[]	streamID[@4294967295]
+$89	ReLU-op607	0	inputs[%229T, ]	outputs[%230T, ]	workspace[]	streamID[@4294967295]
+$90	Conv2D-op608	0	inputs[%230T, %141P, ]	outputs[%231T, ]	workspace[]	streamID[@4294967295]
+$91	BatchNorm-op609	0	inputs[%231T, %142P, %143P, %144P, %145P, ]	outputs[%232T, %233T, %234T, %235T, %236T, ]	workspace[%237T, ]	streamID[@4294967295]
+$92	ReLU-op610	0	inputs[%232T, ]	outputs[%238T, ]	workspace[]	streamID[@4294967295]
+$93	Conv2D-op611	0	inputs[%238T, %146P, ]	outputs[%239T, ]	workspace[]	streamID[@4294967295]
+$94	BatchNorm-op612	0	inputs[%239T, %147P, %148P, %149P, %150P, ]	outputs[%240T, %241T, %242T, %243T, %244T, ]	workspace[%245T, ]	streamID[@4294967295]
+$95	ReLU-op613	0	inputs[%240T, ]	outputs[%246T, ]	workspace[]	streamID[@4294967295]
+$96	Conv2D-op614	0	inputs[%246T, %151P, ]	outputs[%247T, ]	workspace[]	streamID[@4294967295]
+$97	BatchNorm-op615	0	inputs[%247T, %152P, %153P, %154P, %155P, ]	outputs[%248T, %249T, %250T, %251T, %252T, ]	workspace[%253T, ]	streamID[@4294967295]
+$98	Add-op616	0	inputs[%248T, %230T, ]	outputs[%254T, ]	workspace[]	streamID[@4294967295]
+$99	ReLU-op617	0	inputs[%254T, ]	outputs[%255T, ]	workspace[]	streamID[@4294967295]
+$100	Conv2D-op618	0	inputs[%255T, %156P, ]	outputs[%256T, ]	workspace[]	streamID[@4294967295]
+$101	BatchNorm-op619	0	inputs[%256T, %157P, %158P, %159P, %160P, ]	outputs[%257T, %258T, %259T, %260T, %261T, ]	workspace[%262T, ]	streamID[@4294967295]
+$102	ReLU-op620	0	inputs[%257T, ]	outputs[%263T, ]	workspace[]	streamID[@4294967295]
+$103	Conv2D-op621	0	inputs[%263T, %161P, ]	outputs[%264T, ]	workspace[]	streamID[@4294967295]
+$104	BatchNorm-op622	0	inputs[%264T, %162P, %163P, %164P, %165P, ]	outputs[%265T, %266T, %267T, %268T, %269T, ]	workspace[%270T, ]	streamID[@4294967295]
+$105	ReLU-op623	0	inputs[%265T, ]	outputs[%271T, ]	workspace[]	streamID[@4294967295]
+$106	Conv2D-op624	0	inputs[%271T, %166P, ]	outputs[%272T, ]	workspace[]	streamID[@4294967295]
+$107	BatchNorm-op625	0	inputs[%272T, %167P, %168P, %169P, %170P, ]	outputs[%273T, %274T, %275T, %276T, %277T, ]	workspace[%278T, ]	streamID[@4294967295]
+$108	Add-op626	0	inputs[%273T, %255T, ]	outputs[%279T, ]	workspace[]	streamID[@4294967295]
+$109	ReLU-op627	0	inputs[%279T, ]	outputs[%280T, ]	workspace[]	streamID[@4294967295]
+$110	Conv2D-op628	0	inputs[%280T, %171P, ]	outputs[%281T, ]	workspace[]	streamID[@4294967295]
+$111	BatchNorm-op629	0	inputs[%281T, %172P, %173P, %174P, %175P, ]	outputs[%282T, %283T, %284T, %285T, %286T, ]	workspace[%287T, ]	streamID[@4294967295]
+$112	ReLU-op630	0	inputs[%282T, ]	outputs[%288T, ]	workspace[]	streamID[@4294967295]
+$113	Conv2D-op631	0	inputs[%288T, %176P, ]	outputs[%289T, ]	workspace[]	streamID[@4294967295]
+$114	BatchNorm-op632	0	inputs[%289T, %177P, %178P, %179P, %180P, ]	outputs[%290T, %291T, %292T, %293T, %294T, ]	workspace[%295T, ]	streamID[@4294967295]
+$115	ReLU-op633	0	inputs[%290T, ]	outputs[%296T, ]	workspace[]	streamID[@4294967295]
+$116	Conv2D-op634	0	inputs[%296T, %181P, ]	outputs[%297T, ]	workspace[]	streamID[@4294967295]
+$117	BatchNorm-op635	0	inputs[%297T, %182P, %183P, %184P, %185P, ]	outputs[%298T, %299T, %300T, %301T, %302T, ]	workspace[%303T, ]	streamID[@4294967295]
+$118	Add-op636	0	inputs[%298T, %280T, ]	outputs[%304T, ]	workspace[]	streamID[@4294967295]
+$119	ReLU-op637	0	inputs[%304T, ]	outputs[%305T, ]	workspace[]	streamID[@4294967295]
+$120	Conv2D-op638	0	inputs[%305T, %186P, ]	outputs[%306T, ]	workspace[]	streamID[@4294967295]
+$121	BatchNorm-op639	0	inputs[%306T, %187P, %188P, %189P, %190P, ]	outputs[%307T, %308T, %309T, %310T, %311T, ]	workspace[%312T, ]	streamID[@4294967295]
+$122	ReLU-op640	0	inputs[%307T, ]	outputs[%313T, ]	workspace[]	streamID[@4294967295]
+$123	Conv2D-op641	0	inputs[%313T, %191P, ]	outputs[%314T, ]	workspace[]	streamID[@4294967295]
+$124	BatchNorm-op642	0	inputs[%314T, %192P, %193P, %194P, %195P, ]	outputs[%315T, %316T, %317T, %318T, %319T, ]	workspace[%320T, ]	streamID[@4294967295]
+$125	ReLU-op643	0	inputs[%315T, ]	outputs[%321T, ]	workspace[]	streamID[@4294967295]
+$126	Conv2D-op644	0	inputs[%321T, %196P, ]	outputs[%322T, ]	workspace[]	streamID[@4294967295]
+$127	BatchNorm-op645	0	inputs[%322T, %197P, %198P, %199P, %200P, ]	outputs[%323T, %324T, %325T, %326T, %327T, ]	workspace[%328T, ]	streamID[@4294967295]
+$128	Add-op646	0	inputs[%323T, %305T, ]	outputs[%329T, ]	workspace[]	streamID[@4294967295]
+$129	ReLU-op647	0	inputs[%329T, ]	outputs[%330T, ]	workspace[]	streamID[@4294967295]
+$130	Conv2D-op648	0	inputs[%330T, %201P, ]	outputs[%331T, ]	workspace[]	streamID[@4294967295]
+$131	BatchNorm-op649	0	inputs[%331T, %202P, %203P, %204P, %205P, ]	outputs[%332T, %333T, %334T, %335T, %336T, ]	workspace[%337T, ]	streamID[@4294967295]
+$132	ReLU-op650	0	inputs[%332T, ]	outputs[%338T, ]	workspace[]	streamID[@4294967295]
+$133	Conv2D-op651	0	inputs[%338T, %206P, ]	outputs[%339T, ]	workspace[]	streamID[@4294967295]
+$134	BatchNorm-op652	0	inputs[%339T, %207P, %208P, %209P, %210P, ]	outputs[%340T, %341T, %342T, %343T, %344T, ]	workspace[%345T, ]	streamID[@4294967295]
+$135	ReLU-op653	0	inputs[%340T, ]	outputs[%346T, ]	workspace[]	streamID[@4294967295]
+$136	Conv2D-op654	0	inputs[%346T, %211P, ]	outputs[%347T, ]	workspace[]	streamID[@4294967295]
+$137	BatchNorm-op655	0	inputs[%347T, %212P, %213P, %214P, %215P, ]	outputs[%348T, %349T, %350T, %351T, %352T, ]	workspace[%353T, ]	streamID[@4294967295]
+$138	Add-op656	0	inputs[%348T, %330T, ]	outputs[%354T, ]	workspace[]	streamID[@4294967295]
+$139	ReLU-op657	0	inputs[%354T, ]	outputs[%355T, ]	workspace[]	streamID[@4294967295]
+$140	Conv2D-op658	0	inputs[%355T, %216P, ]	outputs[%356T, ]	workspace[]	streamID[@4294967295]
+$141	Conv2D-op659	0	inputs[%355T, %217P, ]	outputs[%357T, ]	workspace[]	streamID[@4294967295]
+$142	BatchNorm-op660	0	inputs[%356T, %218P, %219P, %220P, %221P, ]	outputs[%358T, %359T, %360T, %361T, %362T, ]	workspace[%363T, ]	streamID[@4294967295]
+$143	BatchNorm-op661	0	inputs[%357T, %222P, %223P, %224P, %225P, ]	outputs[%364T, %365T, %366T, %367T, %368T, ]	workspace[%369T, ]	streamID[@4294967295]
+$144	ReLU-op662	0	inputs[%364T, ]	outputs[%370T, ]	workspace[]	streamID[@4294967295]
+$145	Conv2D-op663	0	inputs[%370T, %226P, ]	outputs[%371T, ]	workspace[]	streamID[@4294967295]
+$146	BatchNorm-op664	0	inputs[%371T, %227P, %228P, %229P, %230P, ]	outputs[%372T, %373T, %374T, %375T, %376T, ]	workspace[%377T, ]	streamID[@4294967295]
+$147	ReLU-op665	0	inputs[%372T, ]	outputs[%378T, ]	workspace[]	streamID[@4294967295]
+$148	Conv2D-op666	0	inputs[%378T, %231P, ]	outputs[%379T, ]	workspace[]	streamID[@4294967295]
+$149	BatchNorm-op667	0	inputs[%379T, %232P, %233P, %234P, %235P, ]	outputs[%380T, %381T, %382T, %383T, %384T, ]	workspace[%385T, ]	streamID[@4294967295]
+$150	Add-op668	0	inputs[%380T, %358T, ]	outputs[%386T, ]	workspace[]	streamID[@4294967295]
+$151	ReLU-op669	0	inputs[%386T, ]	outputs[%387T, ]	workspace[]	streamID[@4294967295]
+$152	Conv2D-op670	0	inputs[%387T, %236P, ]	outputs[%388T, ]	workspace[]	streamID[@4294967295]
+$153	BatchNorm-op671	0	inputs[%388T, %237P, %238P, %239P, %240P, ]	outputs[%389T, %390T, %391T, %392T, %393T, ]	workspace[%394T, ]	streamID[@4294967295]
+$154	ReLU-op672	0	inputs[%389T, ]	outputs[%395T, ]	workspace[]	streamID[@4294967295]
+$155	Conv2D-op673	0	inputs[%395T, %241P, ]	outputs[%396T, ]	workspace[]	streamID[@4294967295]
+$156	BatchNorm-op674	0	inputs[%396T, %242P, %243P, %244P, %245P, ]	outputs[%397T, %398T, %399T, %400T, %401T, ]	workspace[%402T, ]	streamID[@4294967295]
+$157	ReLU-op675	0	inputs[%397T, ]	outputs[%403T, ]	workspace[]	streamID[@4294967295]
+$158	Conv2D-op676	0	inputs[%403T, %246P, ]	outputs[%404T, ]	workspace[]	streamID[@4294967295]
+$159	BatchNorm-op677	0	inputs[%404T, %247P, %248P, %249P, %250P, ]	outputs[%405T, %406T, %407T, %408T, %409T, ]	workspace[%410T, ]	streamID[@4294967295]
+$160	Add-op678	0	inputs[%405T, %387T, ]	outputs[%411T, ]	workspace[]	streamID[@4294967295]
+$161	ReLU-op679	0	inputs[%411T, ]	outputs[%412T, ]	workspace[]	streamID[@4294967295]
+$162	Conv2D-op680	0	inputs[%412T, %251P, ]	outputs[%413T, ]	workspace[]	streamID[@4294967295]
+$163	BatchNorm-op681	0	inputs[%413T, %252P, %253P, %254P, %255P, ]	outputs[%414T, %415T, %416T, %417T, %418T, ]	workspace[%419T, ]	streamID[@4294967295]
+$164	ReLU-op682	0	inputs[%414T, ]	outputs[%420T, ]	workspace[]	streamID[@4294967295]
+$165	Conv2D-op683	0	inputs[%420T, %256P, ]	outputs[%421T, ]	workspace[]	streamID[@4294967295]
+$166	BatchNorm-op684	0	inputs[%421T, %257P, %258P, %259P, %260P, ]	outputs[%422T, %423T, %424T, %425T, %426T, ]	workspace[%427T, ]	streamID[@4294967295]
+$167	ReLU-op685	0	inputs[%422T, ]	outputs[%428T, ]	workspace[]	streamID[@4294967295]
+$168	Conv2D-op686	0	inputs[%428T, %261P, ]	outputs[%429T, ]	workspace[]	streamID[@4294967295]
+$169	BatchNorm-op687	0	inputs[%429T, %262P, %263P, %264P, %265P, ]	outputs[%430T, %431T, %432T, %433T, %434T, ]	workspace[%435T, ]	streamID[@4294967295]
+$170	Add-op688	0	inputs[%430T, %412T, ]	outputs[%436T, ]	workspace[]	streamID[@4294967295]
+$171	ReLU-op689	0	inputs[%436T, ]	outputs[%437T, ]	workspace[]	streamID[@4294967295]
+$172	ReduceMean-op690	0	inputs[%437T, ]	outputs[%438T, ]	workspace[]	streamID[@4294967295]
+$173	Reshape-op691	0	inputs[%438T, ]	outputs[%439T, ]	workspace[]	streamID[@4294967295]
+$174	MatMul-op692	0	inputs[%439T, %266P, ]	outputs[%440T, ]	workspace[]	streamID[@4294967295]
+$175	BiasAdd-op693	0	inputs[%440T, %267P, ]	outputs[%441T, ]	workspace[]	streamID[@4294967295]
+$176	Mul-op694	0	inputs[%268P, %441T, ]	outputs[%442T, ]	workspace[]	streamID[@4294967295]
+$177	Maximum-op695	0	inputs[%442T, %441T, ]	outputs[%443T, ]	workspace[]	streamID[@4294967295]
+$178	MatMul-op696	0	inputs[%443T, %269P, ]	outputs[%444T, ]	workspace[]	streamID[@4294967295]
+$179	BiasAdd-op697	0	inputs[%444T, %270P, ]	outputs[%445T, ]	workspace[]	streamID[@4294967295]
+$180	Mul-op698	0	inputs[%268P, %445T, ]	outputs[%446T, ]	workspace[]	streamID[@4294967295]
+$181	Maximum-op699	0	inputs[%446T, %445T, ]	outputs[%447T, ]	workspace[]	streamID[@4294967295]
+$182	MatMul-op700	0	inputs[%447T, %271P, ]	outputs[%448T, ]	workspace[]	streamID[@4294967295]
+$183	BiasAdd-op701	0	inputs[%448T, %272P, ]	outputs[%449T, ]	workspace[]	streamID[@4294967295]
+
+
+All Stream Groups:
+
+
